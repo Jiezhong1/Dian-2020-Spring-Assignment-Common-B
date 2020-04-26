@@ -1,0 +1,11 @@
+int n;
+n=readi();
+func fib(int n) int{
+	if n<=1{
+		return 1;
+	}
+	else{
+		return fib(n-1)+fib(n-2);
+	}
+}
+print("fib({n})={fib(n)}")

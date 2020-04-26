@@ -1,0 +1,10 @@
+int a;
+float b;
+string c;
+int arr[2020];
+a=readi();
+b=readf();
+c=reads();
+arr[0]=0;
+arr[233]=233;
+print("a={a}, b={b}, c={c}, arr[0]={arr[0]}, arr[233]={arr[233]}")

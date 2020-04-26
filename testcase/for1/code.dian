@@ -1,0 +1,6 @@
+int a,i,sum;
+a=readi();
+for i=0;i<a;i=i+1{
+	sum=sum+i;
+}
+print("sum={sum}")
